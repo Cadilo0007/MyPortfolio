@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="test1responsive.css">
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">
+      <img src="assets/6.png" class="logo">
+    </div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo"><img src="assets/6.png" class="logo"></div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div> 
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div> 
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section_pic-container">
+      <img src="assets/profile.jpg" alt="My profile picture" class="my_profile"/>
+    </div>
+    <div class="section_text">
+      <p class="section_text_p2">Hi, I'm</p>
+      <h1 class="title">Justine Leymark</h1>
+      <p class="section_text_p1">Web Designer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('assets/MYCV.pdf')">
+          MY CV</button>
+      </div>
+      <div id="socials-container">
+        <a href="https://www.facebook.com/justine.cadilo.9" target="_blank">
+          <img src="assets/768px-Facebook_icon_(black).svg.png" alt="My Fb profile" class="icon">
+        </a>
+        <a href="https://www.instagram.com/jl_cadilo/" target="_blank">
+          <img src="assets/768px-CIS-A2K_Instagram_Icon_(Black).svg.png" alt="My IG profile" class="icon">
+        </a> 
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img src="assets/linkedin-with-circle-icon-512x512-cvyrro5n.png" alt="My Linked profile" class="icon">
+        </a>
+        <a href="https://github.com/Cadilo0007" target="_blank">
+          <img src="assets/github-icon.png" alt="My Github profile" class="icon">
+        </a>  
+        <a href="https://www.youtube.com/@jlart5252" target="_blank">
+          <img src="assets/YouTube_play_button_dark_circular_(2013-2017).svg.png" alt="My youtube profile" class="icon">
+        </a>  
+        <a href="https://www.threads.net/@jl_cadilo" target="_blank">
+          <img src="assets/threads.png" alt="My threads profile" class="icon">
+        </a> 
+      </div>
+      
+    </div>
+  </section>
+  <section id="about">
+    <p class="section_text_p1">Get to Know More</p>
+    <p class="title">About Me</p>
+    <div class="section-container">
+      <div class="section_pic-container">
+        <img src="assets/profile2.jpg" alt="Profile picture" class="about-pic"/>
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="assets/military_tech_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Experience icon" class="icon">
+            <h3>Experience</h3>
+            <p>0+ Year <br> Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="assets/school_24dp_FILL0_wght400_GRAD0_opsz24 (1).png" alt="Education icon" class="icon">
+            <h3>Education</h3>
+            <p>B.Sc Information Technology</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am an artist aspiring to become a web designer, driven by my passion for crafting visually stunning digital experiences. Currently, dedicated to refining my skills and enhancing creativity and technical through continuous practice
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="assets/arrow_drop_down_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='#experience'"> 
+  </section>
+  <section id="experience">
+    <p class="section_text_p1">What I do?</p>
+    <h1 class="title">My Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Development Tools</h2>
+          <div class="article-container">
+            <article>
+              <img src="assets/check_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="experience icon" width="30px" height="30px">
+              <div>
+                <h3>HTML</h3>
+                <p>1 year experience</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/check_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="experience icon" width="30px" height="30px">
+              <div>
+                <h3>CSS</h3>
+                <p>1 year experience</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/check_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="experience icon" width="30px" height="30px">
+              <div>
+                <h3>JavaScript</h3>
+                <p>1 year experience</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/check_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="experience icon" width="30px" height="30px">
+              <div>
+                <h3>Java</h3>
+                <p>1 year Esperience</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Design Tools</h2>
+          <div class="article-container">
+            <article>
+              <img src="assets/check_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="experience icon" width="30px" height="30px">
+              <div>
+                <h3>Canva</h3>
+                <p>1 year experience</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/check_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="experience icon" width="30px" height="30px">
+              <div>
+                <h3>Picsart</h3>
+                <p>1 year experience</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/check_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="experience icon" width="30px" height="30px">
+              <div>
+                <h3>Figma</h3>
+                <p>1 month experience</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="assets/arrow_drop_down_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='#projects'"/>
+  </section>
+  <section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">My Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="assets/4.png" alt="Project 1" class="project-img" width="500px">
+        </div>
+        <h2 class="experience-sub-title project-title">Attendance Monitoring System</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">View sample</button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="assets/2.png" alt="Project 2" class="project-img" width="500px">
+        </div>
+        <h2 class="experience-sub-title project-title">My portfolio</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">View sample</button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="assets/5.png" alt="Project 3" class="project-img" width="500px">
+        </div>
+        <h2 class="experience-sub-title project-title">Home Automation Systems</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">View sample</button>
+        </div></div>
+      </div>
+      
+    </div>
+    <img src="assets/arrow_drop_down_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='#contact'"> 
+  </section>
+  <section id="projects">
+    <p class="section_text_p1"></p>
+    <h1 class="title">My Hobbies</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/painting.jpg" alt="Project 1" class="project-img" width="500px">
+          </div>
+          <h2 class="experience-sub-title project-title">Painting</h2>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/gaming.png" alt="Project 3" class="project-img" width="500px">
+          </div>
+          <h2 class="experience-sub-title project-title">Mobile Games</h2>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/drawings.jpg" alt="Project 2" class="project-img" width="500px">
+          </div>
+          <h2 class="experience-sub-title project-title">Drawing</h2>
+        </div>
+      </div>
+      
+    </div>
+    <img src="assets/arrow_drop_down_circle_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='#contact'"> 
+  </section>
+  <section id="contact">
+    <p class="section_text_p1">Get it Touch</p>
+    <p class="section_text_p1">Thank you for taking the time to explore my portfolio! If you have any questions, ideas for collaboration, or just want to connect, I would be delighted to hear from you.</p>
+    <h1 class="title">Contact</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        
+        <img src="assets/mail_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="Email icon" class="icon contact-icon">
+        <p><a href="mailto:ju27ine@gmail.com">ju27ine@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        
+        <img src="assets/linkedin-with-circle-icon-512x512-cvyrro5n.png" alt="Linked icon" class="icon contact-icon">
+        <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>2024 portfolio / Justine Leymark</p>
+  </footer>
+  <script src="test1.js"></script>
+</body>
+</html>
